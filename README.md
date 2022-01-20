@@ -9,6 +9,7 @@
 # Uso y instalacion
 **• La IP de las personas que entren se guardaran en un archivo llamado ip.txt junto a su user-agent**
 
+**• Para ver la IP utiliza el comando: cat ip.txt**
 ```
 apt install python -y
 ```
