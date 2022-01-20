@@ -6,6 +6,8 @@
 **• Existen 2 tipos de IP 1.- La ipv4 y la ipv6 esta herramienta loggea la ipv4 la cual siempre va a ser ejemplo: 199.19.224.6**
 
 # Uso y instalacion
+**• La IP de las personas que entren se guardaran en un archivo llamado ip.txt junto a su user-agent**
+
 ```
 apt install python -y
 ```
