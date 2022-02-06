@@ -36,6 +36,9 @@ bash run.sh
 # Despues en otra terminal ejecutamos el archivo server.py
 python3 server.py
 ```
+```
+# Nota si sale un error en la pagina o a la hora de iniciar el link iplogger simplemente vuelvanla a ejecutar
+```
 
 # Contacto
 **• Discord: Negro100pesos#4439**
