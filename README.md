@@ -20,6 +20,9 @@ apt install python3 -y
 apt install git -y
 ```
 ```
+apt install php -y
+```
+```
 git clone https://github.com/Euronymou5/IPlogger.git
 ```
 ```
