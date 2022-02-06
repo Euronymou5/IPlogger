@@ -37,7 +37,7 @@ bash run.sh
 python3 server.py
 ```
 ```
-# Nota si sale un error en la pagina o a la hora de iniciar el link iplogger simplemente vuelvanla a ejecutar
+# Nota si sale un error en la pagina o a la hora de iniciar el link iplogger simplemente vuelvan a ejecutar
 ```
 
 # Contacto
