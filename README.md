@@ -20,16 +20,18 @@ apt install python3 -y
 apt install git -y
 ```
 ```
-pip install colorama
-```
-```
 git clone https://github.com/Euronymou5/IPlogger.git
 ```
 ```
 cd IPlogger
 ```
 ```
-python3 run.py
+# Primero ejecutamos el archivo run.sh
+bash run.sh
+```
+```
+# Despues en otra terminal ejecutamos el archivo server.py
+python3 server.py
 ```
 
 # Contacto
