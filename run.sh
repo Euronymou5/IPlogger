@@ -31,12 +31,12 @@ function servidorcloud() {
       
       # php -S localhost:8080 > /dev/null 2>&1 &
        termux-chroot ./servidor/cloudflared tunnel -url localhost:8080 --logfile log.log > /dev/null 2>&1 &
-      sleep 3
+       sleep 2
   else
        
        # php -S localhost:8080 > /dev/null 2>&1 &
        ./servidor/cloudflared tunnel -url localhost:8080 --logfile log.log > /dev/null 2>&1 &
-       sleep 3
+       sleep 2
   fi
 
      cldflr_link=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' "log.log")
