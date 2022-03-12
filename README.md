@@ -36,7 +36,7 @@ python3 run.py
 **Una vez dentro del menu elegiremos la opcion 1**
 
 
-![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/image.png?raw=true)
+![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1628012.png?raw=true)
 
 
 
