@@ -56,7 +56,10 @@ python3 run.py
 
 
 
-**Las IP de las victimas llegaran en la terminal**
+**Las IP de las victimas llegaran en la terminal de esta forma**
+
+
+
 ![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1632482.png?raw=true)
 
 
