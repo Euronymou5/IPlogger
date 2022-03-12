@@ -34,7 +34,11 @@ python3 run.py
 # ¿Como usar?
 
 **Una vez dentro del menu elegiremos la opcion 1**
+
+
 ![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/image.png?raw=true)
+
+
 
 
 **Despues podemos editar el puerto o dejarlo en el puerto por default (8080)**
