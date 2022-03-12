@@ -9,7 +9,6 @@
 # Uso y instalacion
 **• La IP de las personas que entren se guardaran en un archivo llamado ip.txt junto a su user-agent**
 
-**• Para ver la IP utiliza el comando: cat ip.txt**
 ```
 apt install python -y
 ```
@@ -30,6 +29,32 @@ cd IPlogger
 ```
 ```
 python3 run.py
+```
+
+# ¿Como usar?
+
+**Una vez dentro del menu elegiremos la opcion 1**
+![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/image.png?raw=true)
+
+**Despues podemos editar el puerto o dejarlo en el puerto por default (8080)**
+![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1628112.png?raw=true)
+
+**En caso que queramos usar un puerto personalizado solo elegimos ponemos Y y escribimos el puerto** 
+![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1628252.png?raw=true)
+
+** Las IP de las victimas llegaran en la terminal**
+![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1632482.png?raw=true)
+
+**¿Como podemos crear un link?**
+
+**• Podemos usar varios tuneles en este caso el mas facil de usar es localhost.run**
+
+```
+ssh -R 80:localhost:8080 nokey@localhost.run
+```
+**• Solo lo editaremos su usaramos un puerto personalizado como el 4444 seria**
+```
+ssh -R 80:localhost:4444 nokey@localhost.run
 ```
 
 # Contacto
