@@ -72,7 +72,7 @@ python3 run.py
 ```
 ssh -R 80:localhost:8080 nokey@localhost.run
 ```
-**• Solo lo editaremos su usaramos un puerto personalizado como el 4444 seria**
+**• Solo lo editaremos si usaramos un puerto personalizado como el 4444 seria**
 ```
 ssh -R 80:localhost:4444 nokey@localhost.run
 ```
