@@ -45,12 +45,21 @@ python3 run.py
 ![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1628112.png?raw=true)
 
 
+
+
+
 **En caso que queramos usar un puerto personalizado solo elegimos ponemos Y y escribimos el puerto** 
 ![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1628252.png?raw=true)
 
 
+
+
+
+
 **Las IP de las victimas llegaran en la terminal**
 ![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1632482.png?raw=true)
+
+
 
 
 **¿Como podemos crear un link?**
