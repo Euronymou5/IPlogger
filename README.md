@@ -29,15 +29,7 @@ git clone https://github.com/Euronymou5/IPlogger.git
 cd IPlogger
 ```
 ```
-# Primero ejecutamos el archivo run.sh
-bash run.sh
-```
-```
-# Despues en otra terminal ejecutamos el archivo server.py
-python3 server.py
-```
-```
-# Nota si sale un error en la pagina o a la hora de iniciar el link iplogger simplemente vuelvan a ejecutar
+python3 run.py
 ```
 
 # Contacto
