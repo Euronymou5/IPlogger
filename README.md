@@ -78,4 +78,4 @@ ssh -R 80:localhost:4444 nokey@localhost.run
 ```
 
 # Contacto
-**• Discord: Negro100pesos#4439**
+**• Discord: Negro100pesos#1234**
