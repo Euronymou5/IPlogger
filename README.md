@@ -63,7 +63,7 @@ python3 run.py
 
 # Actualizacion 
 
-**Se agrego la funcion de elegir entre utilizar la pagina por Default (404 codigo error fake html) o redirigir a otra pagina **
+**Se agrego la funcion de elegir entre utilizar la pagina por Default (404 codigo error fake html) o redirigir a otra pagina**
 
 <img src="https://github.com/Euronymou5/IPlogger/raw/main/.imagenes/unknown.png">
 
