@@ -58,9 +58,14 @@ python3 run.py
 
 **Las IP de las victimas llegaran en la terminal de esta forma**
 
-
-
 ![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1632482.png?raw=true)
+
+
+# Actualizacion 
+
+** Se agrego la funcion de elegir entre utilizar la pagina por Default (404 codigo error fake html) o redirigir a otra pagina **
+
+<img src="https://github.com/Euronymou5/IPlogger/raw/main/.imagenes/unknown.png">
 
 
 
