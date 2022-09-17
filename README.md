@@ -55,6 +55,8 @@ python3 run.py
 
 **Se agregó la generación de un link con cloudflare, por lo que ya no será necesario usar otra opción de tunelización**
 
+<img src="https://media.discordapp.net/attachments/995599976463859713/1020516622106103929/unknown.png?width=488&height=306">
+
 **Alternativas a cloudflare:**
 
 **• Podemos usar varios tuneles en este caso el mas facil de usar es localhost.run**
