@@ -10,6 +10,9 @@
 **• La IP de las personas que entren se guardaran en un archivo llamado ip.txt junto a su user-agent**
 
 ```
+apt install wget -y
+```
+```
 apt install python -y
 ```
 ```
@@ -41,21 +44,6 @@ python3 run.py
 
 
 
-**Despues podemos editar el puerto o dejarlo en el puerto por default (8080)**
-![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1628112.png?raw=true)
-
-
-
-
-
-**En caso que queramos usar un puerto personalizado solo elegimos ponemos Y y escribimos el puerto** 
-![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1628252.png?raw=true)
-
-
-
-
-
-
 **Las IP de las victimas llegaran en la terminal de esta forma**
 
 ![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1632482.png?raw=true)
@@ -63,23 +51,14 @@ python3 run.py
 
 # Actualizacion 
 
-**Se agrego la funcion de elegir entre utilizar la pagina por Default (404 codigo error fake html) o redirigir a otra pagina**
+**Se agregó la generación de un link con cloudflare, por lo que ya no será necesario usar otra opción de tunelización**
 
-<img src="https://github.com/Euronymou5/IPlogger/raw/main/.imagenes/unknown.png">
-
-
-<img src="https://github.com/Euronymou5/IPlogger/raw/main/.imagenes/image1.png">
-
-**¿Como podemos crear un link?**
+**Alternativas a cloudflare:**
 
 **• Podemos usar varios tuneles en este caso el mas facil de usar es localhost.run**
 
 ```
 ssh -R 80:localhost:8080 nokey@localhost.run
-```
-**• Solo lo editaremos si usaramos un puerto personalizado como el 4444 seria**
-```
-ssh -R 80:localhost:4444 nokey@localhost.run
 ```
 
 # Contacto
