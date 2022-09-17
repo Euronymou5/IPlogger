@@ -10,6 +10,11 @@
 **• La IP de las personas que entren se guardaran en un archivo llamado ip.txt junto a su user-agent**
 
 ```
+# SOLO TERMUX
+
+pkg install proot -y
+```
+```
 apt install wget -y
 ```
 ```
