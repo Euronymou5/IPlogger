@@ -3,6 +3,18 @@
 import os
 import time
 
+if os.path.isfile('server/cloudflared'):
+   pass
+else:
+  print('\n\033[31m[!] Cloudflare no esta instalado.')
+  print('\n\033[35m[~] Instalando cloudflare...')
+  os.system("bash modules/install.sh")
+  
+if os.path.isfile('server/.cld.log'):
+  os.system("rm server/.cld.log")
+else:
+  pass
+
 logo = """\033[33m
   _____ _____  _      ____   _____  _____ ______ _____  
  |_   _|  __ \| |    / __ \ / ____|/ ____|  ____|  __ \ 
@@ -71,30 +83,20 @@ exit();
       check()
 
 def menu():
-  if os.path.isfile('server/cloudflared'):
-     pass
-  else:
-    print('\n\033[31m[!] Cloudflare no esta instalado.')
-    print('\n\033[35m[~] Instalando cloudflare...')
-    os.system("bash modules/install.sh")
-  if os.path.isfile('server/.cld.log'):
-    os.system("rm server/.cld.log")
-  else:
-    pass
-  os.system("killall php")
-  os.system("clear")
-  print(logo)
-  print('\n[1] Iniciar servidor php')
-  print('[99] Salir')
-  T = int(input('\n>> '))
-  if  T == 1:
-      server()
-  elif T == 99:
-      exit()
-  else:
-     print('\n[!] Error opcion invalida.')
-     time.sleep(2)
-     menu()
+    os.system("killall php")
+    os.system("clear")
+    print(logo)
+    print('\n[1] Iniciar servidor php')
+    print('[99] Salir')
+    T = int(input('\n>> '))
+    if  T == 1:
+        server()
+    elif T == 99:
+        exit()
+    else:
+        print('\n[!] Error opcion invalida.')
+        time.sleep(2)
+        menu()
         
         
 menu()
