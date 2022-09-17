@@ -3,18 +3,6 @@
 import os
 import time
 
-if os.path.isfile('server/cloudflared'):
-   pass
-else:
-  print('\n\033[31m[!] Cloudflare no esta instalado.')
-  print('\n\033[35m[~] Instalando cloudflare...')
-  os.system("bash modules/install.sh")
-  
-if os.path.isfile('server/.cld.log'):
-  os.system("rm server/.cld.log")
-else:
-  pass
-
 logo = """\033[33m
   _____ _____  _      ____   _____  _____ ______ _____  
  |_   _|  __ \| |    / __ \ / ____|/ ____|  ____|  __ \ 
