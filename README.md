@@ -53,7 +53,7 @@ python3 run.py
 
 # Actualizacion 
 
-**Se agregó la generación de un link con cloudflare, por lo que ya no será necesario usar otra opción de tunelización**
+**Se agregó la generación de un link con cloudflare, por lo que ya no será necesario usar otra opción de tunelización (Esperar alrededor de 13 segundos para que cloudflare se conecte bien)**
 
 <img src="https://media.discordapp.net/attachments/995599976463859713/1020516622106103929/unknown.png?width=488&height=306">
 
