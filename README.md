@@ -42,6 +42,8 @@ python3 run.py
 ![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1628012.png?raw=true)
 
 
+**Despues podemos editar el puerto o dejarlo en el puerto por default (8080)**
+![image.png](https://github.com/Euronymou5/IPlogger/blob/main/.imagenes/Screenshot_20220312-1628112.png?raw=true)
 
 
 **Las IP de las victimas llegaran en la terminal de esta forma**
