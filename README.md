@@ -30,7 +30,7 @@ apt install git -y
 apt install php -y
 ```
 ```
-pip install pyshorteners
+pip3 install pyshorteners
 ```
 ```
 git clone https://github.com/Euronymou5/IPlogger.git
