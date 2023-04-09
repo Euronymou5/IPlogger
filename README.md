@@ -18,18 +18,6 @@
 pkg install proot -y
 ```
 ```
-apt install wget -y
-```
-```
-apt install python3 -y
-```
-```
-apt install git -y
-```
-```
-apt install php -y
-```
-```
 pip3 install pyshorteners
 ```
 ```
