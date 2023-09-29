@@ -2,9 +2,8 @@
 **Creador de un link IPlogger con una pagina falsa 404 error codigo de html**
 
 # ¿Que es un IPlogger?
-**• Un IPlogger es una herramienta que loggea la IP por medio de la conexion del usuario y con esta IP podemos obtener datos como su ciudad,estado,isp,codigo postal,etc.**
-
-**• Existen 2 tipos de IP 1.- La ipv4 y la ipv6 esta herramienta loggea la ipv4 la cual siempre va a ser ejemplo: 199.19.224.6**
+**• Un IPlogger es una herramienta que se utiliza para rastrear la dirección IP de un usuario.**
+**Este método de IPlogger es a través de una URL, el usuario debe ingresar a la URL para que su direccion ip pueda registrarse.**
 
 # Uso e instalacion
 
@@ -52,14 +51,6 @@ python3 run.py
 **Se agregó la generación de un link con cloudflare, por lo que ya no será necesario usar otra opción de tunelización (Esperar alrededor de 13 segundos para que cloudflare se conecte bien)**
 
 <img src="https://media.discordapp.net/attachments/995599976463859713/1020516622106103929/unknown.png?width=488&height=306">
-
-**Alternativas a cloudflare:**
-
-**• Podemos usar varios tuneles en este caso el mas facil de usar es localhost.run**
-
-```
-ssh -R 80:localhost:8080 nokey@localhost.run
-```
 
 # Contacto
 **• Discord: Euronymou5#3155**
