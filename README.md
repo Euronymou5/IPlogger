@@ -4,7 +4,7 @@
 # ¿Que es un IPlogger?
 **• Un IPlogger es una herramienta que se utiliza para rastrear la dirección IP de un usuario.**
 
-**Este método de IPlogger es a través de una URL, el usuario debe ingresar a la URL para que su direccion ip pueda registrarse.**
+**• Este método de IPlogger es a través de una URL, el usuario debe ingresar a la URL para que su direccion ip pueda registrarse.**
 
 # Uso e instalacion
 
